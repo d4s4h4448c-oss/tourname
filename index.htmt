@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<title>Bracket Tournament</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>🏆 Bracket Tournament</h1>
+
+<div class="input-section">
+  <input type="text" id="playerInput" placeholder="Nom du joueur">
+  <button onclick="addPlayer()">Ajouter joueur</button>
+  <button onclick="startTournament()">Start</button>
+</div>
+
+<h2>Joueurs</h2>
+<ul id="playersList"></ul>
+
+<h2>Matchs</h2>
+<div id="matches"></div>
+
+<script src="script.js"></script>
+</body>
+</html>
